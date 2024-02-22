@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(8, 8, 140);
+}
+
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+a:hover{
+    background-color: bisque;
+}
+
+.divImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img{
+    width: 350px;
+    height: 400px;
+}
